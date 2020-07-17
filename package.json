@@ -1,7 +1,7 @@
 {
-  "name": "match3-template",
+  "name": "phaser3ts",
   "version": "1.0.0",
-  "description": "simple match3 game template on Phaser/TS",
+  "description": "phaser 3 TypeScript Webpack Project Example",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
@@ -9,10 +9,6 @@
     "build": "npm run clean && webpack --mode production",
     "clean": "rimraf dist",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Gedelborius/match3-js-phaser3-webpack-ts.git"
   },
   "keywords": [
     "Phaser",
@@ -22,10 +18,6 @@
   ],
   "author": "Tokarev family",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Gedelborius/match3-js-phaser3-webpack-ts/issues"
-  },
-  "homepage": "https://github.com/Gedelborius/match3-js-phaser3-webpack-ts#readme",
   "devDependencies": {
     "copy-webpack-plugin": "^6.0.3",
     "html-webpack-plugin": "^4.3.0",
